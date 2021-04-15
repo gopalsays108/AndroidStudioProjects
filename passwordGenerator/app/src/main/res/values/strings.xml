@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">passwordGenerator</string>
+    <string name="generate">Generate</string>
+    <string name="length_5">Length 5 :</string>
+</resources>

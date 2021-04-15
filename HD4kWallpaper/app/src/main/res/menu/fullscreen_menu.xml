@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/photographer_url_menu"
+        android:title="@string/photographer_url" />
+    <item
+        android:id="@+id/image_url_menu"
+        android:title="@string/image_url" />
+    <item
+        android:id="@+id/download_photo_menu"
+        android:title="@string/download" />
+    <item
+        android:id="@+id/setAs_wallapaper_menu"
+        android:title="@string/set_as_wallpaper" />
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RetrofitTutorial</string>
+
+    <string name="longtext"></string>
+
+
+    <string name="lonsgtext">
+       <![CDATA[
+        your paragraph text
+        sf & dsfsdfsdfsd
+      ]]>
+       </string>
+
+    <string name="hello">"dfgdgdddfbdf "fghfh"  xfsgsdgsdgsgd, ....
+         sdvs
+        sdcsdc
+         adca"</string>
+</resources>

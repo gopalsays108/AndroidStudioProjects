@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "272743383503",
+    "firebase_url": "https://doorbeenapp.firebaseio.com",
+    "project_id": "doorbeenapp",
+    "storage_bucket": "doorbeenapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272743383503:android:860f05acd62629a5d0d2ba",
+        "android_client_info": {
+          "package_name": "com.doorbeen.gopal.menu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272743383503-ek7fs7br584k97u76krspmjtnajab7hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSmBbFVy4xpTcIfqgltGJ3GJ93aL8R0Lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272743383503-ek7fs7br584k97u76krspmjtnajab7hr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272743383503:android:5bd1b922c261eff5d0d2ba",
+        "android_client_info": {
+          "package_name": "com.doorbeen.gopal.menuadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272743383503-ek7fs7br584k97u76krspmjtnajab7hr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSmBbFVy4xpTcIfqgltGJ3GJ93aL8R0Lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272743383503-ek7fs7br584k97u76krspmjtnajab7hr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

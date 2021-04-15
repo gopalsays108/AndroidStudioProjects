@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1074244746122",
+    "firebase_url": "https://getbook2.firebaseio.com",
+    "project_id": "getbook2",
+    "storage_bucket": "getbook2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074244746122:android:03d317103e404ce42fe673",
+        "android_client_info": {
+          "package_name": "com.gopal.devjunction.getbooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074244746122-55eelgp73qu8himbeh3ktehr3r4i61td.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRNFliweGIORbYkrpqn8gW6hLeS-FJV90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074244746122-55eelgp73qu8himbeh3ktehr3r4i61td.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

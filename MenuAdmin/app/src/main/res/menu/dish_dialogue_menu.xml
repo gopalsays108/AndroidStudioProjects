@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addd"
+        android:icon="@drawable/add"
+        android:title="@string/add"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/excelAddDish"
+        android:icon="@drawable/doorbeen"
+        android:title="@string/add_dish_from_excel"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/aboutUss"
+        android:title="@string/about_us"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/logOutt"
+        android:title="@string/log_out"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/shareAppp"
+        android:title="@string/share"
+        app:showAsAction="never" />
+
+
+</menu>

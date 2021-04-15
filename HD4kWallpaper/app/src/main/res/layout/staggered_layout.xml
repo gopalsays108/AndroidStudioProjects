@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/staggeredImageView"
+        android:layout_width="240dp"
+        android:layout_height="300dp"
+        android:contentDescription="@string/staggered_image"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_launcher" />
+
+</RelativeLayout>

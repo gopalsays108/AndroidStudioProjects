@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.gopal.chemistryhub.ui.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.gopal.chemistryhub.ui.ui.home.HomeFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_liveClass"
+        android:name="com.example.gopal.chemistryhub.ui.ui.LiveClass"
+        android:label="@string/menu_liveClass"
+        tools:layout="@layout/live_class_fragment" />
+
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="com.example.gopal.chemistryhub.ui.ui.quiz.Quiz"
+        android:label="@string/menu_quiz"
+        tools:layout="@layout/quiz_fragment" />
+
+    <fragment
+        android:id="@+id/nav_askDoubts"
+        android:name="com.example.gopal.chemistryhub.ui.ui.AskDoubts"
+        android:label="@string/menu_doubts"
+        tools:layout="@layout/ask_doubts_fragment" />
+
+    <fragment
+        android:id="@+id/nav_want_break"
+        android:name="com.example.gopal.chemistryhub.ui.WantABreak"
+        android:label="@string/menu_want_break"
+        tools:layout="@layout/want_a_break_fragment" />
+    <fragment
+        android:id="@+id/nav_Share"
+        android:name="com.example.gopal.chemistryhub.ui.Share"
+        android:label="@string/menu_share"
+        tools:layout="@layout/share_fragment" />
+    <fragment
+        android:id="@+id/nav_LogOut"
+        android:name="com.example.gopal.chemistryhub.ui.LogOut"
+        android:label="@string/menu_Logout"
+        tools:layout="@layout/log_out_fragment" />
+</navigation>

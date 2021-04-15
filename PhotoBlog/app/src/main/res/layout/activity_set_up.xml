@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/colorPrimaryDark"
+    tools:context=".SetUpActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/setUpToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setUpImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/download"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setUpToolbar" />
+
+    <EditText
+        android:id="@+id/setupUpName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="40dp"
+        android:autofillHints="@string/your_name"
+        android:ems="10"
+        android:hint="@string/your_name"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setUpImage" />
+
+    <Button
+        android:id="@+id/setUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="45dp"
+        android:background="@color/colorPrimaryDark"
+        android:backgroundTint="#FD5B02"
+        android:text="@string/save_account_setting"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/setupUpName" />
+
+    <ProgressBar
+        android:id="@+id/progressBarSetUp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        android:indeterminateTint="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="@+id/setUpBtn"
+        app:layout_constraintStart_toStartOf="@+id/setUpBtn"
+        app:layout_constraintTop_toBottomOf="@+id/setUpBtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

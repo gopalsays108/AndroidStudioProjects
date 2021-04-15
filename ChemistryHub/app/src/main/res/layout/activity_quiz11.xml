@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ui.quiz.Quiz11">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@color/quizColorPrimary"
+        android:gravity="center"
+        android:text="@string/grade_11th"
+        android:textColor="@color/colorAccent"
+        android:textSize="70sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/start_11_quiz"
+        android:layout_width="227dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custombtn"
+        android:backgroundTint="#5BDA9B"
+        android:text="@string/start_quiz"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/bookmarks_11_quiz"
+        android:layout_width="227dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/custombtn"
+        android:backgroundTint="#8A8A8A"
+        android:text="@string/bookmarks"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_11_quiz"
+        app:layout_constraintVertical_bias="1.0" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

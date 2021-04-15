@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ui.quiz.QuestionQuizActivity11">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/QuestionToolbar11"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/quizColorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quizColorPrimary"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/QuestionToolbar11">
+
+        <TextView
+            android:id="@+id/quiz_question_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@drawable/category_rounded_corner_11"
+            android:padding="16dp"
+            android:text="TextView"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/number_indicator_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="5/10"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/option_container_quiz_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/rounded_borders_question_quiz_11"
+            android:backgroundTint="#989898"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/black"
+
+            android:background="@drawable/rounded_borders_question_quiz_11"
+            android:backgroundTint="#989898"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textColor="@android:color/black"
+
+            android:background="@drawable/rounded_borders_question_quiz_11"
+            android:backgroundTint="#989898"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button4"
+            android:textColor="@android:color/black"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_borders_question_quiz_11"
+            android:backgroundTint="#989898"
+            android:text="Button" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/share_btn_quiz_11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/next_question_btn_quiz_11"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custombtn"
+        android:backgroundTint="#FA7074"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/option_container_quiz_11" />
+
+    <Button
+        android:id="@+id/next_question_btn_quiz_11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:enabled="false"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/custombtn"
+        android:backgroundTint="@color/quizColorPrimary"
+        android:alpha="0.6"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/share_btn_quiz_11"
+        app:layout_constraintTop_toBottomOf="@+id/option_container_quiz_11"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/bookmark_btn_11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/QuestionToolbar11"
+        app:srcCompat="@drawable/bookmark_border"
+        android:layout_marginEnd="16dp"
+        android:translationY="24dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

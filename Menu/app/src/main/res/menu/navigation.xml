@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+      <item android:id="@+id/dish_navigation"
+        android:title="@string/dishes"
+          android:icon="@drawable/dishphoto"/>
+
+    <item android:id="@+id/photo_navigation"
+        android:title="@string/menu_photos"
+        android:icon="@drawable/menuphoto"/>
+
+
+</menu>

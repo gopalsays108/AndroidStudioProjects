@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">4k HD Wallpapers</string>
+    <string name="staggered_image">Staggered Image</string>
+    <string name="set_as_wallpaper">Set as Wallpaper</string>
+    <string name="download">Download</string>
+    <string name="image_url">About Image</string>
+    <string name="photographer_url">About Photographer</string>
+</resources>

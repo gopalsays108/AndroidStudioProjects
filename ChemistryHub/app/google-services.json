@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "945636910835",
+    "firebase_url": "https://chemophillia-41746.firebaseio.com",
+    "project_id": "chemophillia-41746",
+    "storage_bucket": "chemophillia-41746.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945636910835:android:17da17ebbdcbd51be1f986",
+        "android_client_info": {
+          "package_name": "com.example.gopal.chemistryhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945636910835-takggq785ug7irsu8llvb649go3i2rcp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkCiT6Nc7AgqA-Va_fFp_k09v-pStWn4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945636910835-takggq785ug7irsu8llvb649go3i2rcp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945636910835:android:17c324a6b3e8d8afe1f986",
+        "android_client_info": {
+          "package_name": "com.example.gopal.chemophillia_achemistryhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945636910835-takggq785ug7irsu8llvb649go3i2rcp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkCiT6Nc7AgqA-Va_fFp_k09v-pStWn4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945636910835-takggq785ug7irsu8llvb649go3i2rcp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

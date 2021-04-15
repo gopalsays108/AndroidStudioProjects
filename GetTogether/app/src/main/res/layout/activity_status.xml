@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusActivity">
+
+    <include
+        layout="@layout/app_bar_layout"
+        android:id="@+id/statusToolbar"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="60"
+        app:counterTextColor="@android:color/black"
+        android:paddingEnd="15dp"
+        android:paddingStart="10dp"
+        app:counterOverflowTextColor="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/statusToolbar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/statusInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:maxLength="60"
+            android:autofillHints="@string/your_status"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:hint="@string/your_status"
+            android:textColor="@android:color/black" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/statusSetting"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/save_changes"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

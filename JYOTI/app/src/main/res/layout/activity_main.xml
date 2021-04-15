@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/jyoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/hello_friends"
+            android:textAllCaps="true"
+            android:textColor="#0000FF"
+            android:textSize="35sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:layout_below="@+id/jyoti"
+            android:layout_marginLeft="220dp"
+            android:src="@drawable/jyoti" />
+
+        <ImageView
+            android:id="@+id/jyoti2"
+            android:layout_width="wrap_content"
+            android:layout_height="352dp"
+            android:layout_below="@+id/jyoti"
+            android:paddingLeft="10dp"
+            android:paddingRight="200dp"
+            android:src="@drawable/jyoti2" />
+
+        <TextView
+            android:id="@+id/jyotiphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jyoti2"
+            android:layout_marginRight="100dp"
+            android:paddingLeft="20dp"
+            android:text="paytm me on my phone no. 9540289504"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="40dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/jyoti2"
+            android:layout_marginLeft="-70dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@+id/jyotiphone"
+            android:onClick="increment"
+            android:text="+" />
+
+        <TextView
+            android:id="@+id/zero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jyoti2"
+            android:layout_marginLeft="-54dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="25dp"
+            android:layout_toRightOf="@+id/jyotiphone"
+            android:text="@string/_0sp"
+            android:textSize="28sp" />
+
+        <Button
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/jyoti2"
+            android:layout_marginLeft="-70dp"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@+id/jyotiphone"
+            android:onClick="decrement"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/gift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jyotiphone"
+            android:paddingLeft="20dp"
+            android:text="@string/wanna_see_my_my_video_tap_on_gift_and_pay"
+            android:textAllCaps="true"
+            android:textColor="#8B0000"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/gift"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:text="@string/gift_and_payment"
+            android:id="@+id/Button"/>
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

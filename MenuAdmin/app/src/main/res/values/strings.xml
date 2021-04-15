@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Doorbeen: The Menu Admin</string>
+
+    <string name="tap_to_load_photo">Tap above to select your Image</string>
+    <string name="enter_resturant_name">Enter Restaurant Name</string>
+    <string name="enter_resturant_address">Enter Address</string>
+    <string name="enter_resturant_city">Enter City</string>
+    <string name="add_resturanat">Add</string>
+    <string name="delete">delete</string>
+
+
+    <string name="dishName">Enter Dish Name</string>
+    <string name="dishType">Type (eg: italian,Indian ,etc )</string>
+    <string name="dishPrice">Enter Price</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: sign in  -->
+    <string name="helloThere">Hello there, </string>
+    <string name="welcomeBack">Welcome back, </string>
+    <string name="registeredEmail">Registered E-mail</string>
+    <string name="passwords_signIn">Password</string>
+    <string name="forgotPass">Forgot Password ?</string>
+    <string name="signIn">Sign In</string>
+    <string name="or">OR</string>
+    <string name="dontHaveAcc">Don\'t Have an account? Sign UP!</string>
+
+
+    <!-- todo : signUp-->
+    <string name="sign_up">Sign up</string>
+    <string name="enter_e_mail">Enter E-mail</string>
+    <string name="full_name">Full Name</string>
+    <string name="passwordSignUp">Password ( minimum 8 character )</string>
+    <string name="confirmPass">Re-Enter Your Password</string>
+    <string name="signUp_have_account">"Already Have an Account? Sign In! </string>
+    <string name="dishes">DISHES</string>
+    <string name="menu_photo">Menu Photos</string>
+    <string name="add">Add Dish</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="forgotdescription">Don\'t Worry We Just Need Your Registered E-mail ID And it\'s Done</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="go_back"><![CDATA[<< Go Back]]></string>
+    <string name="log_out">Log Out</string>
+    <string name="about_us">About us</string>
+
+    <string name="descriptionApp">Doorbean : The Menu App that provide Restaurants Admins with a platform to share their Restaurants menu on the app
+    with various info like <b> Price , Dish Type , Dish Name. </b>Where all the user has access to all the menu provided by admins ,that they can order
+    food form just seeing the phone  , thus reducing use of papers and also maintain hygiene among all visitors to Restaurants.\n Doorbeen
+    also provides admins to add exact photo of their menu in the app.\n This app intended for fair use , it does not try to feature any kind of
+    <b>Hatred , Bullying</b> of any Restaurants owner . \nYou can Check our Privacy Policy and Terms And Conditions.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_conditions">Terms And Conditions</string>
+    <string name="share">Share</string>
+
+    <!-- app id == ca-app-pub-3940256099942544~3347511713 , original = ca-app-pub-2597064093476309~3813557352-->
+    <!-- app unit ==	ca-app-pub-3940256099942544/6300978111, original =ca-app-pub-2597064093476309/4538168434  -->
+    <string name="admobAppId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admobAppUnit">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="departmental_general_store">Departmental / General Store</string>
+    <string name="others">Others</string>
+    <string name="add_dish_from_excel">Add Dish From Excel</string>
+    <string name="change_image">Change Image</string>
+
+</resources>

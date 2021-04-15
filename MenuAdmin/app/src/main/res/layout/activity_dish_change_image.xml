@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/changeDishToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFC300" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/changeDishIcon"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#B0FDC007"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/dishicon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/dishName"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:id="@+id/changeDishName"/>
+
+    <Button
+        android:id="@+id/changeDishIconBtn"
+        android:layout_width="match_parent"
+        android:layout_marginStart="90dp"
+        android:layout_marginEnd="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/change_image"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:background="@drawable/custom_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+
+    <ProgressBar
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:visibility="invisible"
+        android:id="@+id/progressbar_changeDish"
+        android:indeterminateTint="#FFC300"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/app_name"
+        android:gravity="center|bottom"
+        android:paddingBottom="15sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:alpha="0.5"/>
+
+
+</LinearLayout>

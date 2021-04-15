@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fillViewport="true"
+    tools:context="com.gopal.register.LoginActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:text="@string/create_a_new_account"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textVie2w"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:text="@string/photo_blog"
+            android:textColor="@android:color/white"
+            android:textSize="55sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="@+id/textView"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/userNameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="@string/your_name"
+            android:ems="10"
+            android:hint="@string/your_name"
+            android:inputType="textPersonName|textCapWords"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textVie2w" />
+
+
+        <EditText
+            android:id="@+id/registerEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="@string/enter_e_mail"
+            android:ems="10"
+            android:hint="@string/enter_e_mail"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userNameRegister" />
+
+        <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+            android:id="@+id/regsiterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="@string/enter_your_password"
+            android:ems="10"
+            android:hint="@string/enter_your_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@android:color/white"
+            app:drawable_hide="@drawable/hide1"
+            app:drawable_show="@drawable/show"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerEmailAddress" />
+
+        <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+            android:id="@+id/registerPasswordConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:autofillHints="@string/confirm_password"
+            android:ems="10"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="@android:color/white"
+            app:drawable_hide="@drawable/hide1"
+            app:drawable_show="@drawable/show"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/regsiterPassword" />
+
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/colorAccent"
+            android:text="@string/create_account"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerPasswordConfirm" />
+
+        <Button
+            android:id="@+id/haveAnAccountBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/white"
+            android:text="@string/have_an_account_sign_in"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/registerBtn" />
+
+        <ProgressBar
+            android:id="@+id/progressBarRegister"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorAccent"
+            android:progressTint="#FFFCFC"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

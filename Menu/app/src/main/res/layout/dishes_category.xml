@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="11dp"
+        android:background="@drawable/rounded_corner_categories"
+        android:backgroundTint="#EACFB2"
+        android:layout_margin="5dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView_dishes"
+            android:src="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_dishes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Harish Bakery hulwari"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Secort 7 extension"
+                android:id="@+id/type"
+                android:layout_marginStart="8dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:padding="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Gurugram"
+                android:id="@+id/price"
+                android:layout_marginStart="8dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:padding="8dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+

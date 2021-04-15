@@ -1,0 +1,3 @@
+<resources layout_height="">
+    <dimen name="List_item_height">88dp</dimen>
+</resources>

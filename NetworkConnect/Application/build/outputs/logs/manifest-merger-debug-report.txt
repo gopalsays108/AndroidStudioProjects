@@ -1,0 +1,167 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:20:1-47:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:20:1-47:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:20:1-47:12
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a58aab82b4060ff69910e4b1e037bd00\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f4b402a0f246506af8d0b09b95876d5c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e33798a7fe6461c6a5d2ff689de972bb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\05286e018d268fb7414beeaa64c5d66a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\c943c507e04b21e63d09b5c55c586eac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\c787d9f5a77494d30b991a0b5d1d293e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\081b578a05876d6908a7ca310433871e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e052cc2af9bdcb9c09b0af390f4808c7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d4019a0610be4edd0c0510f8fcb3c12a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\4855ac27eb5d0572b6f22301d7fa7d7a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d9356a9049366b4cd75e80a338c951c3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\cc54f50e56e40afe4a04ff1323b3137e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e1793763096261c601e3e1eb4e912c08\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\8cfbc5460da62ad2483d2857e310f8d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fa0ae181f11b8c000dbd99efef2639ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d84249158e90128035e37e13493b0452\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\bfe5d0e23cdf0c46d575571f320816cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5b410aac3e42b6d8f1d5536b0aaddc3d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2892cbf17f920014ab0548dd179a8f25\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\62c7061dfdf613359c769219de5845b2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\bfbd74d3dfb68b7c9db7126d4a7af53f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\30332fcb9e0e658155662b695c554c70\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\96d2383a24e4ff62f51e13bdbcd144db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f6d75dd45e7269cced0a896cd3211445\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\30f7e4a44f98c9fbe4d7060f2af90112\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3721d7b5529d19acfd7d2dea69763df3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f17968f2c88d43dcfa56f6a4fe1daa7a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d1d48e27d130d259bf32fc33224fd8f2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\85955d1a8296b54761c2488e1bba2f6e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fded701eec5fb5cf22450210cabac504\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:20:1-47:12
+INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:20:1-47:12
+	package
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:22:5-49
+	android:versionName
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:24:5-30
+		INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:21:5-63
+	android:versionCode
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:23:5-28
+		INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:27:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:28:22-76
+application
+ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:30:5-46:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2892cbf17f920014ab0548dd179a8f25\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2892cbf17f920014ab0548dd179a8f25\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\62c7061dfdf613359c769219de5845b2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\62c7061dfdf613359c769219de5845b2\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2892cbf17f920014ab0548dd179a8f25\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:31:9-41
+	android:icon
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:32:9-45
+	android:allowBackup
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:33:9-44
+	android:networkSecurityConfig
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:35:9-69
+activity#com.example.android.networkconnect.MainActivity
+ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:36:9-45:20
+	android:label
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:38:13-45
+	android:uiOptions
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:39:13-57
+	android:name
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:37:13-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:41:13-44:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:42:17-69
+	android:name
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:42:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml:43:27-74
+uses-sdk
+INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a58aab82b4060ff69910e4b1e037bd00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\a58aab82b4060ff69910e4b1e037bd00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f4b402a0f246506af8d0b09b95876d5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f4b402a0f246506af8d0b09b95876d5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e33798a7fe6461c6a5d2ff689de972bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e33798a7fe6461c6a5d2ff689de972bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\05286e018d268fb7414beeaa64c5d66a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\05286e018d268fb7414beeaa64c5d66a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\c943c507e04b21e63d09b5c55c586eac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\c943c507e04b21e63d09b5c55c586eac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\c787d9f5a77494d30b991a0b5d1d293e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\c787d9f5a77494d30b991a0b5d1d293e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\081b578a05876d6908a7ca310433871e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\081b578a05876d6908a7ca310433871e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e052cc2af9bdcb9c09b0af390f4808c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e052cc2af9bdcb9c09b0af390f4808c7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d4019a0610be4edd0c0510f8fcb3c12a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d4019a0610be4edd0c0510f8fcb3c12a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\4855ac27eb5d0572b6f22301d7fa7d7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\4855ac27eb5d0572b6f22301d7fa7d7a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d9356a9049366b4cd75e80a338c951c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d9356a9049366b4cd75e80a338c951c3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\cc54f50e56e40afe4a04ff1323b3137e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\cc54f50e56e40afe4a04ff1323b3137e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e1793763096261c601e3e1eb4e912c08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\e1793763096261c601e3e1eb4e912c08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\8cfbc5460da62ad2483d2857e310f8d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\8cfbc5460da62ad2483d2857e310f8d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fa0ae181f11b8c000dbd99efef2639ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fa0ae181f11b8c000dbd99efef2639ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d84249158e90128035e37e13493b0452\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d84249158e90128035e37e13493b0452\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\bfe5d0e23cdf0c46d575571f320816cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\bfe5d0e23cdf0c46d575571f320816cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5b410aac3e42b6d8f1d5536b0aaddc3d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\5b410aac3e42b6d8f1d5536b0aaddc3d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2892cbf17f920014ab0548dd179a8f25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\2892cbf17f920014ab0548dd179a8f25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\62c7061dfdf613359c769219de5845b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\62c7061dfdf613359c769219de5845b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\bfbd74d3dfb68b7c9db7126d4a7af53f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\bfbd74d3dfb68b7c9db7126d4a7af53f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\30332fcb9e0e658155662b695c554c70\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\30332fcb9e0e658155662b695c554c70\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\96d2383a24e4ff62f51e13bdbcd144db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\96d2383a24e4ff62f51e13bdbcd144db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f6d75dd45e7269cced0a896cd3211445\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f6d75dd45e7269cced0a896cd3211445\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\30f7e4a44f98c9fbe4d7060f2af90112\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\30f7e4a44f98c9fbe4d7060f2af90112\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3721d7b5529d19acfd7d2dea69763df3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\3721d7b5529d19acfd7d2dea69763df3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f17968f2c88d43dcfa56f6a4fe1daa7a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\f17968f2c88d43dcfa56f6a4fe1daa7a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d1d48e27d130d259bf32fc33224fd8f2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\d1d48e27d130d259bf32fc33224fd8f2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\85955d1a8296b54761c2488e1bba2f6e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\85955d1a8296b54761c2488e1bba2f6e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fded701eec5fb5cf22450210cabac504\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Asus\.gradle\caches\transforms-2\files-2.1\fded701eec5fb5cf22450210cabac504\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Asus\AndroidStudioProjects\NetworkConnect\Application\src\main\AndroidManifest.xml

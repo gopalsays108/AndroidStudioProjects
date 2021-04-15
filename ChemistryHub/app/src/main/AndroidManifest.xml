@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gopal.chemistryhub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.ui.quiz.QuestionQuizActivity11"
+            android:screenOrientation="portrait"
+            android:theme="@style/QuizActionBar">
+
+        </activity>
+        <activity
+            android:name=".ui.ui.quiz.Quiz_set_Activity_11"
+            android:screenOrientation="portrait"
+            android:theme="@style/QuizActionBar">
+
+        </activity>
+        <activity
+            android:name=".ui.ui.quiz.quiz_category_11"
+            android:screenOrientation="portrait"
+            android:theme="@style/QuizActionBar" />
+        <activity
+            android:name=".ui.ui.quiz.Quiz12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.ui.quiz.Quiz11"
+            android:screenOrientation="portrait"
+            android:theme="@style/QuizActionBar" />
+        <activity
+            android:name=".ui.ui.Grade12"
+            android:label="12th Grade"
+            android:screenOrientation="portrait"
+            android:theme="@style/AcitivityActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".ui.MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.register.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

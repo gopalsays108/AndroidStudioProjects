@@ -1,0 +1,2 @@
+rootProject.name='Chemophillia - A Chemistry Hub'
+include ':app'

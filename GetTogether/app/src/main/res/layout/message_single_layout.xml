@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/messageSingleLayout"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:background="@drawable/message_single_drawable"
+        android:id="@+id/otherPersonLayout"
+        android:backgroundTint="#BAC2C6"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="110dp"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:id="@+id/messageProfileLayout"
+            android:src="@drawable/download"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/messageSingleLayoutLinear"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/messageProfileLayout"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:padding="2dp"
+                android:id="@+id/nameTextLayout"
+                android:text="Display name"
+                android:textColor="@android:color/widget_edittext_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/timeMessageSingleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:padding="3dp"
+                android:text="Time"
+                android:textSize="10sp"
+                android:textColor="@android:color/widget_edittext_dark" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/messageTextLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="message"
+            android:textSize="17sp"
+            android:textColor="@android:color/background_dark"
+            android:layout_below="@id/messageSingleLayoutLinear"
+            android:layout_toEndOf="@+id/messageProfileLayout" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageImageSingleLayout"
+            android:layout_toEndOf="@+id/messageProfileLayout"
+            android:layout_below="@id/messageTextLayout"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/myLayout"
+        android:padding="12dp"
+        android:backgroundTint="#D5ED8C"
+        android:background="@drawable/mine_message_single_layout"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/messageSingleLayoutLinearMe"
+            android:layout_marginStart="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:padding="2dp"
+                android:id="@+id/nameTextLayoutMe"
+                android:text="Display name"
+                android:textColor="@android:color/widget_edittext_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/timeMessageSingleLayoutMe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:padding="3dp"
+                android:textSize="10sp"
+                android:text="Time"
+                android:textColor="@android:color/widget_edittext_dark" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/messageTextLayoutMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/messageSingleLayoutLinearMe"
+            android:layout_alignStart="@+id/messageSingleLayoutLinearMe"
+            android:layout_marginStart="0dp"
+            android:text="message"
+            android:textColor="@android:color/background_dark"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/imageImageSingleLayoutMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/messageTextLayoutMe"
+            android:layout_alignStart="@+id/messageTextLayoutMe"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="-8dp"
+            android:layout_marginEnd="13dp"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

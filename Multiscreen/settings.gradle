@@ -1,0 +1,2 @@
+rootProject.name='Multiscreen'
+include ':app'

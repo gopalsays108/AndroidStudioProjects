@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6349E1</color>
+    <color name="colorPrimaryDark">#6349E1</color>
+    <color name="colorAccent">#fff</color>
+    <color name="RegisterBackground">#AE61BAFD</color>
+    <color name="SucccessGreen">#4BEA0D</color>
+    <color name="btnRed">#282A8E</color>
+
+  <!-- Colour for Quiz-->
+    <color name="quizColorPrimary">#5BDA9B</color>
+    <color name="quizColorDark">#5BDA9B</color>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner_categories"
+    android:backgroundTint="#B0FAC010"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_holder_dish"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dishicon"
+        app:civ_border_color="#B0FAC010"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/tap_to_load_photo"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dish_name_enter"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="16dp"
+        android:autofillHints="@string/dishName"
+        android:background="@drawable/custom_btn"
+        android:backgroundTint="#ECE7B1"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="@string/dishName"
+        android:inputType="textCapWords"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/dish_type_enter"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="16dp"
+        android:autofillHints="@string/dishType"
+        android:background="@drawable/custom_btn"
+        android:backgroundTint="#ECE7B1"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="@string/dishType"
+        android:inputType="textCapWords"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+    <EditText
+        android:id="@+id/dish_price_enter"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="16dp"
+        android:autofillHints="@string/dishPrice"
+        android:background="@drawable/custom_btn"
+        android:backgroundTint="#ECE7B1"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="@string/dishPrice"
+        android:inputType="number"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+
+    <Button
+        android:id="@+id/add_dish"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/custom_btn"
+        android:backgroundTint="#ECE277"
+        android:text="@string/add_resturanat"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

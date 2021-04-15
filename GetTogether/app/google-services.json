@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "188888880401",
+    "firebase_url": "https://gettogether-11e33.firebaseio.com",
+    "project_id": "gettogether-11e33",
+    "storage_bucket": "gettogether-11e33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188888880401:android:ee5c105c373fde582a28b0",
+        "android_client_info": {
+          "package_name": "com.gopal.gettogether"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188888880401-kp0fadusd4oq4q5b19324jlmkcmq38ko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyyaDtO2G9u-QTOR0PPEkgp1N3756KFuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188888880401-kp0fadusd4oq4q5b19324jlmkcmq38ko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

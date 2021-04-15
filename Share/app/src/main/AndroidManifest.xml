@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <manifest xmlns:tools="http://schemas.android.com/tools"
+        package="com.smarterdroid.wififiletransfer" android:installLocation="auto" android:versionName="1.0.9" android:versionCode="33" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk android:targetSdkVersion="17" android:minSdkVersion="7"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+
+    -<activity android:name=".WFTPanel" android:label="@string/appname" android:launchMode="singleTask"
+        tools:ignore="WrongManifestParent">
+
+
+    -<intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+    <activity android:name=".WFTPreferences" android:label="Preferences"
+        tools:ignore="WrongManifestParent" />
+
+    <activity android:name=".help.HelpScreen" android:label="Help"/>
+
+    <activity android:name="com.smarterdroid.wftlib.DirectoryPicker" android:label="Choose Directory"/>
+
+    <service android:name=".WFTService"/>
+
+
+    -<receiver android:name=".WifiReceiver">
+
+
+    -<intent-filter>
+
+    <action android:name="android.net.wifi.STATE_CHANGE"/>
+
+    <action android:name="android.net.wifi.supplicant.CONNECTION_CHANGE"/>
+
+</intent-filter>
+
+</receiver>
+
+
+    -<receiver android:name="WFTWidgetProvider">
+
+
+    -<intent-filter>
+
+    <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+
+    <action android:name="com.smarterdroid.wififiletransferpro.UI_UPDATE"/>
+
+</intent-filter>
+
+    <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info"/>
+
+</receiver>
+
+    <service android:name="com.google.analytics.tracking.android.CampaignTrackingService"/>
+
+
+    -<receiver android:name="com.google.analytics.tracking.android.CampaignTrackingReceiver" android:exported="true">
+
+
+    -<intent-filter>
+
+    <action android:name="com.android.vending.INSTALL_REFERRER"/>
+
+</intent-filter>
+
+</receiver>
+
+</application>
+
+</manifest>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:background="@drawable/rounded_corner_categories"
+    android:backgroundTint="#B0FAC010"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#B0FDC007"
+       android:src="@drawable/place_holder"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:id="@+id/image_holder"  />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_to_load_photo"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/category_name_enter"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/custom_btn"
+        android:elevation="1dp"
+        android:backgroundTint="#ECE7B1"
+        android:autofillHints="@string/enter_resturant_name"
+        android:hint="@string/enter_resturant_name"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/category_address_enter"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/custom_btn"
+        android:elevation="1dp"
+        android:backgroundTint="#ECE7B1"
+        android:hint="@string/enter_resturant_address"
+        android:inputType="textCapWords"
+        android:autofillHints="@string/enter_resturant_address" />
+
+    <EditText
+        android:id="@+id/category_city_enter"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:layout_margin="16dp"
+        android:background="@drawable/custom_btn"
+        android:elevation="1dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:autofillHints="@string/enter_resturant_city"
+        android:backgroundTint="#ECE7B1"
+        android:hint="@string/enter_resturant_city"
+        android:inputType="textCapWords" />
+
+
+
+    <Button
+        android:id="@+id/add_category"
+        android:layout_width="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/add_resturanat"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="#ECE277"
+        android:background="@drawable/custom_btn"/>
+
+
+</LinearLayout>

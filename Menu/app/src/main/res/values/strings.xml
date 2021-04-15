@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Doorbeen : The Menu</string>
+    <string name="choose">Choose</string>
+    <string name="menu_photos">Menu Photos</string>
+    <string name="dishes">DISHES</string>
+    <string name="sample_resturarant_name">Sample Resturarant Name</string>
+    <string name="about_us">About us</string>
+    <string name="share">Share</string>
+
+
+    <string name="descriptionApp">Doorbean : The Menu App that provide Restaurants Admins with a platform to share their Restaurants menu on the app
+    with various info like <b> Price , Dish Type , Dish Name. </b>Where all the user has access to all the menu provided by admins ,that they can order
+    food form just seeing the phone  , thus reducing use of papers and also maintain hygiene among all visitors to Restaurants.\n Doorbeen
+    also provides admins to add exact photo of their menu in the app.\n This app intended for fair use , it does not try to feature any kind of
+    <b>Hatred , Bullying</b> of any Restaurants owner . \nYou can Check our Privacy Policy and Terms And Conditions.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_and_conditions">Terms And Conditions</string>
+
+    <!--rest unit id original= ca-app-pub-2597064093476309/3895541736  , tril =ca-app-pub-3940256099942544/6300978111 -->
+    <!--admob app id original=ca-app-pub-2597064093476309~3813557352  ,trail =  ca-app-pub-3940256099942544~3347511713 -->
+
+    <string name="admob_rest">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admobAppId">ca-app-pub-3940256099942544~3347511713</string>
+
+</resources>

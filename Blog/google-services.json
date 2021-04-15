@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "913264689698",
+    "firebase_url": "https://blog-3970c.firebaseio.com",
+    "project_id": "blog-3970c",
+    "storage_bucket": "blog-3970c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913264689698:android:046cbeb26db78a5d91807b",
+        "android_client_info": {
+          "package_name": "com.gopal.blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913264689698-esg82jouusbuvftp3l1bfsan5le5gqub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzL4XBNPmC4AmxSJRO5IHdMqGPJ2EBwA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913264689698-esg82jouusbuvftp3l1bfsan5le5gqub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

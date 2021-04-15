@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="currency_converter">Currency Converter</string>
+    <string name="check_your_currency">Check Your currency</string>
+    <string name="base_proce_eur">Base Proce : EUR</string>
+    <string name="base_price_eur">Base Price: EUR</string>
+    <string name="dated_22_54_2015">Dated : 22/54/2015</string>
+    <string name="inr">INR:</string>
+    <string name="_45">45</string>
+</resources>
